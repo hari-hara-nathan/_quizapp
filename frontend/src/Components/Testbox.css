@@ -1,0 +1,115 @@
+.testbox ,.test-result{
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  background-color: #e2e2e2;
+  position: absolute;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test-container,.result-container {
+  position: relative;
+  background-color: #fff;
+  height: 350px;
+  width: 45%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 500px;
+}
+.container-top{
+  width:90%;
+  height: 50px;
+  position: absolute;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-top >span{
+  letter-spacing: 1.2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.question-box{
+  width:90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.question-box > p {
+  letter-spacing: 1.2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.test-options{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  place-items: center;
+  grid-gap: 20px;
+  margin: 15px 0;
+  margin-top: 30px;
+}
+.test-options >button,button:disabled{
+    padding: 8px 10px;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  font-weight: 500;
+  min-width: 160px;
+  border: 2px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:disabled{
+  color:black;
+}
+.btn-next{
+  position: absolute;
+  width:70px;
+  padding: 6px 0;
+  background-color: #3897f0;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  height: 35px;
+  font-weight: bold;
+  outline: none;
+bottom:25px;
+right: 25px;
+}
+.correct{
+  background-color:rgb(145, 253, 145);
+  border-color:rgb(145, 253, 145) ;
+ 
+}
+.wrong{
+  background-color: rgb(253, 123, 123);
+  border: none;
+}
+/* css for result */
+.result-container>h1{
+  position:absolute;
+  top:20px;
+}
+.body{
+   display: grid;
+  grid-template-columns: 140px 140px;
+  place-items: center;
+  grid-gap: 20px;
+  margin: 15px 0;
+  margin-top: 30px;
+ 
+}
+.body >span{
+   font-size: 26px;
+  font-weight:500;
+  text-align: start;
+}

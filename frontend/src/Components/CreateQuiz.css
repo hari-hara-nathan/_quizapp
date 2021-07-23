@@ -1,0 +1,112 @@
+.create-quiz {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  background-color: #fff;
+  position: absolute;
+  top: 70px;
+  text-transform: none;
+}
+.MuiTab-root {
+  text-transform: none !important;
+  font-size: medium !important;
+}
+.Mui-selected {
+  background-color: #93bfdc !important;
+}
+.MuiTab-wrapper {
+  flex-direction: unset !important;
+  justify-content: flex-start !important;
+  font-size: medium;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+#vertical-tab-3,
+#vertical-tab-2 {
+  padding-left: 48px;
+}
+.MuiSvgIcon-root {
+  font-size: medium;
+  margin-right: 6px;
+  margin-top: 5px;
+}
+
+/* CSS for Quiz daskboard */
+
+.Quizdaskboard,
+.importquestion,
+.create-question,
+.questions ,
+.publish{
+  height: calc(100vh - 70px);
+  width: 100%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#vertical-tabpanel-0,#vertical-tabpanel-1,#vertical-tabpanel-2,#vertical-tabpanel-3,#vertical-tabpanel-4{
+  width:100%;
+}
+h2 {
+  margin-left: -25px;
+  letter-spacing: 1.3px;
+  color: rgb(37, 35, 46);
+  font-weight: 700;
+}
+.MuiInputLabel-root {
+  margin-top: 23px;
+  margin-bottom: 5px;
+}
+.MuiOutlinedInput-root {
+  height: 43px;
+}
+#no_of_question,
+#pass_percentage {
+  width: 40px;
+}
+#dropdown {
+  width: 120px;
+}
+
+.btn-import,.btn-add{
+  margin-top: 35px;
+
+  width: 15%;
+  padding: 4px 0;
+  background-color: #3897f0;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  height: 33px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.btn-add{
+  margin-top:60px;
+  margin-bottom:20px;
+}
+/* CSS for create-question component */
+.MuiInputBase-multiline {
+  overflow: hidden;
+  height: 100px;
+  width: 450px;
+  display: inline !important;
+}
+.create-question > h3{
+  margin:12px 0;
+  margin-left: -10px;
+}
+.warning{
+  background-color: #FEEFB3;
+  border-radius: 10px;
+  letter-spacing: 1.2px;
+  margin: 5px auto;
+  height: 50px;
+  width:70%;
+  font-weight: 600;
+  text-align: center;
+  padding:6px 10px;
+}
+
+
